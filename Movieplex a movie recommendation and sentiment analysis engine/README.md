@@ -3,7 +3,7 @@ This recommender and sentment analysis engine works only with english language m
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
 
-Link to the web app: https://movie-plex.herokuapp.com/
+**Link to the web app:** https://movie-plex.herokuapp.com/
 
 ## How do Content Based Recommender Systems work?
 A content based recommender works with data that the user provides, either explicitly (entering a movie name) or implicitly (clicking on a link). Based on that data, a user profile is generated, which is then used to make suggestions to the user. As the user provides more inputs or takes actions on the recommendations, the engine becomes more and more accurate.
