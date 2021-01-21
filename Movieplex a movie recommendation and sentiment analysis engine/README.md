@@ -1,5 +1,7 @@
 # MoviePlex is a Content Based Movie Recommender System with sentiment analysis
-This recommender and sentment analysis engine works only with english language movies for example: type "Inception" in the search bar it will show you the results and recommendations.
+[![author](https://img.shields.io/badge/author-Raghav-ff69b4.svg?style=flat-square)](https://www.linkedin.com/in/raghav-arora-bb7a46115/)
+
+This recommender and sentiment analysis engine works only with English language movies, for example, type "Inception" in the search bar it will show you the sentiment results and movie recommendations.
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
 
