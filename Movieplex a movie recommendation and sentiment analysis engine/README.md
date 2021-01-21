@@ -5,6 +5,8 @@ The details of the movies(title, genre, runtime, rating, poster, etc) are fetche
 
 **Link to the web app:** https://movie-plex.herokuapp.com/
 
+![image](https://github.com/Raghav-Arora-01/Data-Science-Projects-with-Deployment/blob/main/Movieplex%20a%20movie%20recommendation%20and%20sentiment%20analysis%20engine/my_recomm.PNG)
+
 ## How do Content Based Recommender Systems work?
 A content based recommender works with data that the user provides, either explicitly (entering a movie name) or implicitly (clicking on a link). Based on that data, a user profile is generated, which is then used to make suggestions to the user. As the user provides more inputs or takes actions on the recommendations, the engine becomes more and more accurate.
 
