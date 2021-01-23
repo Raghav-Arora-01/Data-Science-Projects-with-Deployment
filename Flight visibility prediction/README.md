@@ -1,5 +1,6 @@
 # Flight Visibility Distance
 To build a regression model to predict the visibility distance based on the given different climatic indicators in the training data. 
+For using the web app, you need to enter the file path and the file must have the required format for file name as specified in the 'Schema', number of columns should be same as per the schema, otherwise the ML model will move the file to the bad data folder. This project strictly follow rules for data validation as agreed in the SLA (service level agreement).
 
 [![author](https://img.shields.io/badge/author-Raghav-ff69b4.svg?style=flat-square)](https://www.linkedin.com/in/raghav-arora-bb7a46115/)
 
